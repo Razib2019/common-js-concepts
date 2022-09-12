@@ -4,8 +4,9 @@ Truthy:
 2. Any number (+ve , -ve) will be truthy Expect/other than 0
 3. Any String will be truthy Except/other than emplty string ('') And if we declare string not number or alphabet just space inside string (' ') then it will show truthy
 4. '0', 'false'
-5. {}
-6. []
+5. {} (empty objects)
+6. [] (empty arrays)
+7. () (empty functions)
 
 Falsy:
 1. false
@@ -13,6 +14,7 @@ Falsy:
 3. ''(empty string)
 4. undefined
 5. null
+6. NaN
 */
 
 /* let x = [];
