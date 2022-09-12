@@ -1,4 +1,5 @@
-/* 
+/*
+
 ****======8 Ways to get undefined=======****
 1. Variable that is not initialized will give undefined
 2. Function with no return
@@ -8,6 +9,7 @@
 6. Accessing array elements outside of the index range will give you undefined
 7. Deleting an element inside an array
 8. Set a value directly to undefined
+
 */
 
 /* let first;
@@ -48,6 +50,7 @@ delete sixth[1];
 console.log(sixth[1], sixth[5], sixth[200]);
 console.log(sixth); */
 
+// We shouldn't set value directly as undefined Rather than we should use null 
 /* const eighth = undefined; */
 
 /* const ninth = null;
